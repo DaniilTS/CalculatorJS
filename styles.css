@@ -1,0 +1,62 @@
+body{
+    background-color: aquamarine;
+    margin: 200px;
+
+}
+
+button{
+    width: 90px;
+    height: 90px;
+    font-size: 20px;
+    color: white;
+    background: black;
+    border-radius: 0;
+    border: 0;
+    transition: 1s;
+    outline: none;
+}
+
+button:hover{
+    transition: 1s;
+    box-shadow: inset 0 0 10px 0 white;
+}
+
+.num-btn{
+    font-size: 0;
+    width: 270px;
+}
+
+.math-btn{
+    margin: -450px 0 0 270px;
+    font-size: 0;
+}
+
+.math-btn button{
+    color: orange;
+}
+
+.horizontal-up-math-btn{
+    width: 270px;
+    margin-left: -270px;
+}
+
+.vertical-math-btn{
+    width: 90px;
+    margin: -450px 0 0 0;
+}
+
+.up{
+    margin-bottom: 90px;
+    width: 360px;
+    height: 40px;
+    background: black;
+}
+
+.up hr{
+    background: gray;
+    width: 95%;
+}
+
+#coma{
+    margin: 270px 0 0 -90px;
+}

@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel = "stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="up">
+        <input id = "input_num" type="number">
+        <hr>
+    </div>
+    <div class = "num-btn">
+        <button id = "1" onclick="number(id)">1</button>
+        <button id = "2" onclick="number(id)">2</button>
+        <button id = "3" onclick="number(id)">3</button>
+        <button id = "4" onclick="number(id)">4</button>
+        <button id = "5" onclick="number(id)">5</button>
+        <button id = "6" onclick="number(id)">6</button>
+        <button id = "7" onclick="number(id)">7</button>
+        <button id = "8" onclick="number(id)">8</button>
+        <button id = "9" onclick="number(id)">9</button>
+        <button id = "0" onclick="number(id)" style="margin: 0 0 0 90px">0</button>
+    </div>
+    <div class = "math-btn">
+        <div class = "horizontal-up-math-btn">
+            <button id = "deleteAll"  onclick="delAll()">c</button>
+            <button id = "deleteLast" onclick="delLast()">delLast</button>
+            <button id = "percent"    onclick="mathFunc(id)">%</button>
+        </div>
+        <div class="horizontal-down-math-btn">
+            <button id = "coma" onclick="placeComa()">,</button>
+        </div>
+        <div class = "vertical-math-btn">
+            <button id = "plus"     onclick="mathFunc(id)">+</button>
+            <button id = "minus"    onclick="mathFunc(id)">-</button>
+            <button id = "multiply" onclick="mathFunc(id)">*</button>
+            <button id = "division" onclick="mathFunc(id)">/</button>
+            <button id = "equal"    onclick="mathFunc(id)">=</button>
+        </div>
+    </div>
+    <script type="text/javascript" src="MyScripts.js"></script>
+</body>
+</html>
